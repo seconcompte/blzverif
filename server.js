@@ -5,7 +5,7 @@ const axios = require("axios");
 const { spawn } = require("child_process");
 
 // URL publique de votre projet (à ne pas modifier)
-const SERVER_URL = "https://477f5558-f863-437b-a074-fdf09960b3dc-00-v6gu9kks5091.janeway.replit.dev";
+const SERVER_URL = "blzverif.netlify.app";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
