@@ -8,6 +8,7 @@ const {
 } = require("discord.js");
 const axios = require("axios");
 const sqlite3 = require("sqlite3").verbose();
+require('dotenv').config();
 
 const client = new Client({
   intents: [
